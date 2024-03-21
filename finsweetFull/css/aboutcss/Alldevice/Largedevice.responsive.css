@@ -1,0 +1,16 @@
+@media (max-width: 1199.98px) {
+    /*  benifit part responsive */
+    .brandsLogo__Count {
+        font-size: 30px;
+    }
+    .brandsLogo__Title {
+        font-size: 14px;
+    }
+    /*  benifit part responsive */
+    /*  team part responsive */
+    .teamMembers {
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    /*  team part responsive */
+}

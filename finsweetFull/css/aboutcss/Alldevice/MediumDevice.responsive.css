@@ -1,0 +1,67 @@
+@media (max-width: 991.98px) {
+    /* about us part responsive start */
+    #aboutusFull {
+        padding: 70px 0;
+    }
+    .aboutusFullLeft__discription {
+        padding-bottom: 20px;
+    }
+    /* about us part responsive end*/
+    /* whowe part responsive start*/
+    .whoweFullUpper {
+        padding: 55px 0;
+    }
+    #whoweFull {
+        padding-bottom: 70px;
+    }
+    /* whowe part responsive end*/
+    /* theprocess part responsive start*/
+    #theprocessFull {
+        padding-bottom: 70px;
+    }
+    /* theprocess part responsive end*/
+    /* mission part responsive start*/
+    #missionFull {
+        padding: 70px 0;
+    }
+    .missionFullContent_top {
+        padding-bottom: 50px;
+    }
+    .missionFullContent__disription {
+        padding-bottom: 20px;
+    }
+    /* mission part responsive end*/
+    /* benifit part responsive start*/
+    #benifitFull {
+        padding: 70px 0;
+    }
+    /* benifit part responsive end*/
+    /* team part responsive start*/
+    #teamFull {
+        padding: 70px 0;
+    }
+    .teamOverly {
+        bottom: -155px;
+    }
+    .social_icon {
+        bottom: 30px;
+    }
+    .social_icon a {
+        margin: 0 10px;
+    }
+    .social_icon a i {
+        font-size: 20px;
+    }
+    /* team part responsive end*/
+    /* footer part responsive start*/
+    #footerFull {
+        padding-top: 60px;
+    }
+    .footerLeft__discription {
+        padding: 14px 0 45px;
+    }
+    .footerRight__social a i {
+        margin-bottom: 20px;
+    }
+    /* footer part responsive end*/
+}

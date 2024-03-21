@@ -1,0 +1,56 @@
+@media (max-width: 575.98px) {
+    /* about us responsive part start */
+    #aboutusFull {
+        padding: 25px 0;
+    }
+    .aboutusFullLeft__header {
+        font-size: 35px;
+        line-height: 38px;
+    }
+    /* about us responsive part end */
+    /* whowe responsive part start */
+    #whoweFull {
+        padding-bottom: 25px;
+    }
+    .theprocessTop__header {
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+    /* whowe responsive part end */
+    /* benefit responsive part start */
+    .benifitTopContent__header {
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+    .benifitmiddle {
+        padding-bottom: 25px;
+    }
+    /* benefit responsive part end */
+    /* team responsive part start */
+    .teamHead__header {
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+    .social_icon {
+        bottom: 15px;
+    }
+    .social_icon a i {
+        font-size: 15px;
+        padding: 6px 0;
+    }
+    .social_icon a {
+        margin: 0px 2px;
+    }
+    /* team responsive part end */
+    /* footer responsive part end */
+    .footerRight__discription {
+        padding-right: 0;
+    }
+    .footernavcopyright {
+        font-size: 11px;
+    }
+    .footernavcopyrightlink {
+        font-size: 11px;
+    }
+    /* footer responsive part end */
+}

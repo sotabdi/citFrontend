@@ -1,0 +1,64 @@
+@media (max-width: 767.98px) {
+    /* about us responsive part start */
+    #aboutusFull {
+        padding: 45px 0;
+    }
+    .aboutusFullLeft__header {
+        padding: 8px 0 20px;
+    }
+    /* about us responsive part end */
+    /* whowe responsive part strat */
+    .whoweFullUpper {
+        padding: 35px 0;
+    }
+    /* whowe responsive part end */
+    /* theprocess responsive part end */
+    #whoweFull {
+        padding-bottom: 45px;
+    }
+    .theprocessCard__title {
+        padding: 18px 0 8px;
+    }
+    .theprocessCard {
+        background: #F4F6FC;
+    }
+    #theprocessFull {
+        padding-bottom: 55px;
+    }
+    /* theprocess responsive part end */
+    /* mission responsive part start */
+    #missionFull {
+        padding: 45px 0;
+    }
+    .missionFullContent_top {
+        padding-bottom: 35px;
+    }
+    .missionFullContent__disription {
+        padding-bottom: 5px;
+    }
+    /* mission responsive part end */
+    /* benefit responsive part start */
+    #benifitFull {
+        padding: 40px 0;
+    }
+    .benifitmiddle {
+        padding-bottom: 35px;
+    }
+    /* benefit responsive part end */
+    /* team responsive part start */
+    #teamFull {
+        padding: 45px 0;
+    }
+    .social_icon a {
+        margin: 0 5px;
+    }
+    /* team responsive part end */
+    /* footer responsive part start */
+    #footerFull {
+        padding-top: 45px;
+    }
+    .footerLeft__discription {
+        padding: 14px 0 30px;
+    }
+    /* footer responsive part end */
+}
