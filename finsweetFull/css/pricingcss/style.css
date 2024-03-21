@@ -1,0 +1,243 @@
+@import "../common.css";
+@import "../navbar.css";
+@import "../footer.css";
+:root {
+    --primary_blue: #1C1E53;
+    --primary_white: #fff;
+    --dark_blue: #282938;
+    --Grey: #F4F6FC;
+    --light_grey: #BBBBCB;
+    --yellow: #FCD980;
+    --tint_blue: #2405F2;
+    --poppins: "Poppins", sans-serif;
+    --manrope: "Manrope", sans-serif;
+}
+
+
+/* pricing part css */
+
+#pricingFull {
+    padding: 128px 0;
+}
+
+.pricingTop__header {
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    color: var(dark_blue);
+}
+
+.pricingTop__discription {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 16px 28px 0;
+    color: rgba(40, 41, 56, 0.705);
+}
+
+.pricingTop {
+    padding-bottom: 64px;
+}
+
+.pricingCard {
+    padding: 64px 48px 62px;
+    background: var(--Grey);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.pricingCard::before {
+    position: absolute;
+    content: '';
+    bottom: 155px;
+    left: 50%;
+    width: 1151px;
+    height: 1151px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgba(255, 255, 255, 0.062);
+    transition: ease-in-out.3s;
+    -webkit-transition: ease-in-out.3s;
+    -moz-transition: ease-in-out.3s;
+    -ms-transition: ease-in-out.3s;
+    -o-transition: ease-in-out.3s;
+    z-index: -1;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    scale: 0;
+}
+
+.pricingCard:hover:before {
+    scale: 1;
+}
+
+.pricingCard:hover {
+    background: var(--primary_blue);
+}
+
+.pricingCard:hover .pricingCard__price--span {
+    color: var(--yellow);
+}
+
+.pricingCard:hover .pricingCard__discription {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.pricingCard:hover .pricingCard__price,
+.pricingCard:hover .pricingCard__title,
+.pricingCard:hover .pricingCard__item {
+    color: var(--primary_white);
+}
+
+.pricingCard:hover .pricingCard__btn {
+    background: var(--yellow);
+    color: var(--dark_blue);
+}
+
+.pricingCard__price {
+    font-family: var(--poppins);
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--dark_blue);
+    transition: ease-in-out.3s;
+    -webkit-transition: ease-in-out.3s;
+    -moz-transition: ease-in-out.3s;
+    -ms-transition: ease-in-out.3s;
+    -o-transition: ease-in-out.3s;
+}
+
+.pricingCard__price--span {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--tint_blue);
+    vertical-align: middle;
+    transition: ease-in-out.3s;
+    -webkit-transition: ease-in-out.3s;
+    -moz-transition: ease-in-out.3s;
+    -ms-transition: ease-in-out.3s;
+    -o-transition: ease-in-out.3s;
+}
+
+.pricingCard__title {
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--dark_blue);
+    padding: 20px 0 8px;
+    transition: ease-in-out.3s;
+    -webkit-transition: ease-in-out.3s;
+    -moz-transition: ease-in-out.3s;
+    -ms-transition: ease-in-out.3s;
+    -o-transition: ease-in-out.3s;
+}
+
+.pricingCard__discription {
+    font-family: var(--poppins);
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.705);
+    max-width: 281px;
+    padding-bottom: 73px;
+    transition: ease-in-out.3s;
+    -webkit-transition: ease-in-out.3s;
+    -moz-transition: ease-in-out.3s;
+    -ms-transition: ease-in-out.3s;
+    -o-transition: ease-in-out.3s;
+}
+
+.pricingCard__item {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark_blue);
+    padding: 10px 0;
+    transition: ease-in-out.3s;
+    -webkit-transition: ease-in-out.3s;
+    -moz-transition: ease-in-out.3s;
+    -ms-transition: ease-in-out.3s;
+    -o-transition: ease-in-out.3s;
+}
+
+.pricingCard__item--icon {
+    padding-right: 16px;
+}
+
+.pricingCard__btn {
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--Grey);
+    padding: 16px 77px;
+    background: var(--dark_blue);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    -ms-transition: ease-in-out .3s;
+    -o-transition: ease-in-out .3s;
+}
+
+.pricingCard__btn:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.pricingCardbtn {
+    display: block;
+    padding-top: 79px;
+}
+
+
+/* pricing part css */
+
+
+/* faq part css */
+
+#faqFull {
+    padding-bottom: 128px;
+}
+
+.faqLeft__header {
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--dark_blue);
+    padding-bottom: 16px;
+}
+
+.faqLeft__discription {
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--tint_blue);
+}
+
+
+/* faq part css */

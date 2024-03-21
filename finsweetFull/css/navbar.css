@@ -1,0 +1,51 @@
+/* nav css start*/
+
+#navFull {
+    background: var(--primary_blue, #1C1E53);
+    padding: 10px 0;
+}
+
+.menuItem a {
+    font-family: var(--poppins);
+    color: var(--light_grey);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.menuItem a:hover {
+    color: var(--primary_white);
+}
+
+.navBtn a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 47px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    margin-left: 36px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navBtn a:hover {
+    color: var(--dark_blue);
+    background: var(--yellow);
+}
+
+
+/* nav css end*/

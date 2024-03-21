@@ -1,0 +1,89 @@
+/* footer css start*/
+
+#footerFull {
+    background: var(--primary_blue);
+    padding-top: 96px;
+}
+
+.footerLeft__discription {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.801);
+    padding: 22px 0 86px;
+}
+
+.footerLeft__contact {
+    background: var(--yellow);
+    padding: 17px 37px;
+}
+
+.footerLeft__contactTitile {
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--dark_blue);
+    padding-bottom: 1px;
+}
+
+.footerLeft__contactDiscrip {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(40, 41, 56, 0.705);
+}
+
+.footerRight__title {
+    color: var(--primary_white);
+    font-size: 48px;
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+.footerRight__discription {
+    color: #F4F6FC;
+    font-size: 16px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 14px;
+    margin-bottom: 28px;
+    padding-right: 204px
+}
+
+.footerRight__social a i {
+    color: var(--primary_white);
+    margin: 0 6px;
+    font-size: 18px;
+}
+
+
+/* footer css end*/
+
+
+/* footernav css start*/
+
+.footernavcopyright {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark_blue);
+}
+
+.footernavcopyrightlink {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark_blue);
+}
+
+.footer--menuitem a {
+    color: rgba(40, 41, 56, 0.705);
+}
+
+.footer--menuitem a:hover {
+    color: var(--dark_blue);
+}
+
+
+/* footernav css end*/

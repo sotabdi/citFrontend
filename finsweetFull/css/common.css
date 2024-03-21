@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+a,
+p,
+span,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary_blue: #1C1E53;
+    --primary_white: #fff;
+    --dark_blue: #282938;
+    --Grey: #F4F6FC;
+    --light_grey: #BBBBCB;
+    --yellow: #FCD980;
+    --tint_blue: #2405F2;
+    --poppins: "Poppins", sans-serif;
+    --manrope: "Manrope", sans-serif;
+}
