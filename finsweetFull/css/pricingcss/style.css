@@ -239,5 +239,65 @@
     color: var(--tint_blue);
 }
 
+.faqAccordionContetnt__btn {
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--dark_blue);
+    padding: 32px;
+}
+
+.faqAccordionContetnt__btn--span {
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--tint_blue);
+    padding-right: 58px;
+}
+
+.faqAccordionContetnt__discription {
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(40, 41, 56, 0.863);
+    padding-left: 96px;
+    padding-bottom: 25px;
+    max-width: 665px;
+}
+
+.faqAccordionContetnt__custom {
+    border: none;
+    border-bottom: 1px solid rgba(194, 187, 255, 0.712);
+}
+
+.faqAccordionContetnt__btn::after {
+    content: "+";
+    background-image: none;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "-";
+    background-image: none;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.faqAccordionContetnt__btn:focus {
+    box-shadow: none;
+}
+
+.faqAccordionContetnt__btn:not(.collapsed) {
+    background: none;
+}
+
 
 /* faq part css */
