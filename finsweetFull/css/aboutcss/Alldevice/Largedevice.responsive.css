@@ -13,4 +13,9 @@
         padding-right: 23px;
     }
     /*  team part responsive */
+    /* navbar part start */
+    .footerLeft__contact {
+        padding: 17px 5px;
+    }
+    /* navbar part end */
 }

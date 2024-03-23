@@ -1,0 +1,266 @@
+@import "../common.css";
+@import "../navbar.css";
+@import "../footer.css";
+:root {
+    --primary_blue: #1C1E53;
+    --primary_white: #fff;
+    --dark_blue: #282938;
+    --Grey: #F4F6FC;
+    --light_grey: #BBBBCB;
+    --yellow: #FCD980;
+    --tint_blue: #2405F2;
+    --poppins: "Poppins", sans-serif;
+    --manrope: "Manrope", sans-serif;
+}
+
+
+/* banner part css start */
+
+#bannerFull {
+    background: var(--primary_blue);
+    padding: 128px 0;
+}
+
+.bannerLeft__header {
+    font-family: var(--poppins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    color: var(--primary_white);
+}
+
+.bannerLeft__discription {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.705);
+    padding: 32px 0;
+}
+
+.bannerLeft__btn {
+    font-family: var(--manrope);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 48px;
+    background: transparent;
+    color: #fff;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    transition: ease-in-out.3s;
+    -webkit-transition: ease-in-out.3s;
+    -moz-transition: ease-in-out.3s;
+    -ms-transition: ease-in-out.3s;
+    -o-transition: ease-in-out.3s;
+}
+
+.bannerLeft__btn:hover {
+    color: var(--dark_blue);
+    background: var(--yellow);
+}
+
+
+/* banner part css end */
+
+
+/* brand part css start */
+
+#brandFull {
+    padding: 96px 0;
+}
+
+.brandsLogo__Count {
+    color: var(--dark_blue);
+    font-size: 38px;
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+.brandsLogo__Title {
+    font-size: 16px;
+    color: rgba(40, 41, 56, 0.705);
+    font-weight: 400;
+}
+
+
+/* brand part css end */
+
+
+/* benefit part css start */
+
+#benifitFull {
+    padding: 128px 0;
+}
+
+.benifitTopContent__header {
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--dark_blue);
+    padding-bottom: 48px;
+}
+
+.benifitmiddleCard {
+    padding: 50px 32px 48px 48px;
+    background: var(--Grey);
+}
+
+.benifitmiddleCard__title {
+    color: var(--dark_blue);
+    font-size: 24px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    line-height: 36px;
+    padding: 26px 0 12px;
+}
+
+.benifitmiddleCard__discription {
+    color: var(--dark_blue);
+    font-size: 16px;
+    color: rgba(40, 41, 56, 0.705);
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* benefit part css end */
+
+
+/* process css start*/
+
+#processOne {
+    padding: 128px 0;
+}
+
+#processThree {
+    padding: 128px 0;
+}
+
+.processFullContent__subhead {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark_blue);
+}
+
+.processFullContent__header {
+    font-family: var(--poppins);
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--dark_blue);
+    padding: 16px 0;
+    max-width: 624px;
+}
+
+.processFullContent__disription {
+    font-family: var(--poppins);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(40, 41, 56, 0.705);
+    max-width: 623px;
+}
+
+#processTwo {
+    background: var(--Grey);
+    padding: 128px 0;
+}
+
+#processFour {
+    background: rgba(252, 217, 128, 0.103);
+    padding: 128px 0;
+}
+
+
+/* process css end*/
+
+
+/* faq part css */
+
+#faqFull {
+    padding: 128px 0;
+}
+
+.faqLeft__header {
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--dark_blue);
+    padding-bottom: 16px;
+}
+
+.faqLeft__discription {
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--tint_blue);
+}
+
+.faqAccordionContetnt__btn {
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--dark_blue);
+    padding: 32px;
+}
+
+.faqAccordionContetnt__btn--span {
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--tint_blue);
+    padding-right: 58px;
+}
+
+.faqAccordionContetnt__discription {
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(40, 41, 56, 0.863);
+    padding-left: 96px;
+    padding-bottom: 25px;
+    max-width: 665px;
+}
+
+.faqAccordionContetnt__custom {
+    border: none;
+    border-bottom: 1px solid rgba(194, 187, 255, 0.712);
+}
+
+.faqAccordionContetnt__btn::after {
+    content: "+";
+    background-image: none;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "-";
+    background-image: none;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.faqAccordionContetnt__btn:focus {
+    box-shadow: none;
+}
+
+.faqAccordionContetnt__btn:not(.collapsed) {
+    background: none;
+}
+
+
+/* faq part css */

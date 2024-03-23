@@ -1,0 +1,17 @@
+@media (max-width: 991.98px) {
+    /* faq prat start */
+    .faqAccordionContetnt__btn {
+        padding: 0;
+    }
+    .faqAccordionContetnt__discription {
+        padding-left: 65px;
+    }
+    .faqAccordionContetnt__btn--span {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #faqFull {
+        padding-bottom: 90px;
+    }
+    /* faq part end */
+}

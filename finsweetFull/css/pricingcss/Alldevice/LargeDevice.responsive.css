@@ -8,4 +8,9 @@
         padding: 16px 60px;
     }
     /* pricing part css end */
+    /* navbar part start */
+    .footerLeft__contact {
+        padding: 17px 5px;
+    }
+    /* navbar part end */
 }
