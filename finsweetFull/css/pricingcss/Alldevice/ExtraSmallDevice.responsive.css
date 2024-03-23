@@ -1,0 +1,40 @@
+@media (max-width: 575.98px) {
+    /* pricing part start */
+    #pricingFull {
+        padding: 40px 0;
+    }
+    .pricingTop__header {
+        font-size: 40px;
+    }
+    .pricingTop__discription {
+        padding: 10px 0px 0;
+    }
+    .pricingTop {
+        padding-bottom: 25px;
+    }
+    .pricingCard {
+        padding: 35px 25px;
+    }
+    .faqLeft__header {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    /* pricing part end */
+    /* faq part start */
+    #faqFull {
+        padding-bottom: 70px;
+    }
+    /* faq part end */
+    /* footer part start */
+    #footerFull {
+        background: var(--primary_blue);
+        padding-top: 50px;
+    }
+    .footerLeft__discription {
+        padding: 22px 0 38px;
+    }
+    .footerRight__discription {
+        padding-right: 0;
+    }
+    /* footer part start */
+}

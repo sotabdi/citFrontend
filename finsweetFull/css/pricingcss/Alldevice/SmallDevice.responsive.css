@@ -1,0 +1,10 @@
+@media (max-width: 767.98px) {
+    /* pricing part start */
+    #pricingFull {
+        padding: 70px 0;
+    }
+    .pricingTop {
+        padding-bottom: 35px;
+    }
+    /* pricing part end */
+}
