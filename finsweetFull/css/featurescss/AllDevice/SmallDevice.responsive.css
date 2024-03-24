@@ -1,0 +1,32 @@
+@media (max-width: 767.98px) {
+    /* banner part start */
+    #bannerFull {
+        background: var(--primary_blue);
+        padding: 60px 0;
+    }
+    /* banner part end */
+    /* brand part start */
+    #brandFull {
+        padding: 61px 0;
+    }
+    /* brand part end */
+    /* process part start */
+    #processOne {
+        padding: 80px 0;
+    }
+    #processTwo {
+        padding: 80px 0;
+    }
+    #processThree {
+        padding: 80px 0;
+    }
+    #processFour {
+        padding: 80px 0;
+    }
+    /* process part end */
+    /* faq part start */
+    #faqFull {
+        padding: 80px 0;
+    }
+    /* faq part end */
+}

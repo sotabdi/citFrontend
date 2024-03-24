@@ -1,4 +1,10 @@
 @media (max-width: 991.98px) {
+    /* banner part start */
+    #bannerFull {
+        background: var(--primary_blue);
+        padding: 90px 0;
+    }
+    /* banner part enf */
     /* faq prat start */
     .faqAccordionContetnt__btn {
         padding: 0;
