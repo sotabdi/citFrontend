@@ -1,0 +1,40 @@
+@media (max-width: 575.98px) {
+    /* banner part start */
+    #bannerFull {
+        padding: 30px 0;
+    }
+    /* banner part end */
+    /* brand part start */
+    #brandFull {
+        padding: 45px 0;
+    }
+    .benifitTopContent__header {
+        font-size: 46px;
+        line-height: 60px;
+    }
+    /* brand part end */
+    /* process part start */
+    .benifitmiddleCard {
+        padding: 40px 15px;
+    }
+    /* process part end */
+    /* benifit part start */
+    .processFullContent__header {
+        font-size: 36px;
+    }
+    /* faq part start */
+    .faqLeft__header {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .faqAccordionContetnt__btn--span {
+        padding-right: 20px;
+    }
+    .faqAccordionContetnt__btn {
+        font-size: 24px;
+    }
+    .faqAccordionContetnt__discription {
+        padding-left: 24px;
+    }
+    /* faq part end */
+}
