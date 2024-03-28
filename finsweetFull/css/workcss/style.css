@@ -98,3 +98,44 @@
 
 
 /* ourwork part end */
+
+
+/* letsbuild part start */
+
+#buildFull {
+    padding: 128px 0;
+}
+
+.buildContent__header {
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--dark_blue);
+}
+
+.buildContent__Discription {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.712);
+    padding: 20px 0 40px;
+}
+
+.buildContent__btn {
+    padding: 16px 66px;
+    background: var(--yellow);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    font-family: var(--manrope);
+    font-size: 18px;
+    color: #1B1C2B;
+    font-weight: 600;
+}
+
+
+/* letsbuild part end */
